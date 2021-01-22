@@ -4,6 +4,7 @@
   "description": "socket.io를 이용한 실시간 채팅 웹 서비스",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +18,9 @@
   },
   "homepage": "https://github.com/JChan91/toy_socket.io#readme",
   "dependencies": {
-    "sequelize": "^6.4.0"
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
